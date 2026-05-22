@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "role": "seller",
+        "name": "Nice Cafe",
+        "email": "nicecafe@gmail.com",
+        "password": "nicecafe123",
+        "balance": 120.0,
+        "treasure_bag": {
+            "treasure_bag_id": 1,
+            "price": 5.99,
+            "description": "Assorted baked goods near end of day",
+            "category": "baked goods",
+            "quantity": 3,
+            "expiry_time": "2025-11-04T13:00:00"
+        },
+        "transactions": [
+            {
+                "transaction_id": 101,
+                "time": "2025-10-12T21:00:00",
+                "seller_id": 1,
+                "buyer_id": 1,
+                "transaction_amount": 5.99,
+                "transaction_status": "Completed"
+            },
+            {
+                "transaction_id": 102,
+                "time": "2025-10-13T09:30:00",
+                "seller_id": 1,
+                "buyer_id": 2,
+                "transaction_amount": 5.99,
+                "transaction_status": "Active"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "role": "seller",
+        "name": "Fresh Bites",
+        "email": "freshbites@gmail.com",
+        "password": "freshbites",
+        "balance": 200.0,
+        "treasure_bag": {
+            "treasure_bag_id": 2,
+            "price": 9.99,
+            "description": "Healthy wraps and smoothies",
+            "category": "healthy meals",
+            "quantity": 5,
+            "expiry_time": "2025-11-03T21:00:00"
+        },
+        "transactions": [
+            {
+                "transaction_id": 103,
+                "time": "2025-10-14T10:15:00",
+                "seller_id": 2,
+                "buyer_id": 3,
+                "transaction_amount": 9.99,
+                "transaction_status": "Active"
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "transaction_id": 101,
+        "time": "2025-10-12T21:00:00",
+        "seller_id": 1,
+        "buyer_id": 1,
+        "transaction_amount": 5.99,
+        "transaction_status": "Completed"
+    },
+    {
+        "transaction_id": 102,
+        "time": "2025-10-13T09:30:00",
+        "seller_id": 1,
+        "buyer_id": 2,
+        "transaction_amount": 5.99,
+        "transaction_status": "Active"
+    },
+    {
+        "transaction_id": 103,
+        "time": "2025-10-14T10:15:00",
+        "seller_id": 2,
+        "buyer_id": 3,
+        "transaction_amount": 9.99,
+        "transaction_status": "Active"
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "role": "buyer",
+        "name": "John Doe",
+        "email": "john@gmail.com",
+        "password": "john1234",
+        "balance": 45.5,
+        "transactions": [
+            {
+                "transaction_id": 101,
+                "time": "2025-10-12T21:00:00",
+                "seller_id": 1,
+                "buyer_id": 1,
+                "transaction_amount": 5.99,
+                "transaction_status": "Completed"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "role": "buyer",
+        "name": "Alice Tan",
+        "email": "alice@gmail.com",
+        "password": "alice123",
+        "balance": 80.0,
+        "transactions": [
+            {
+                "transaction_id": 102,
+                "time": "2025-10-13T09:30:00",
+                "seller_id": 1,
+                "buyer_id": 2,
+                "transaction_amount": 5.99,
+                "transaction_status": "Active"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "role": "buyer",
+        "name": "Michael Lee",
+        "email": "michael@gmail.com",
+        "password": "mike123",
+        "balance": 120.0,
+        "transactions": [
+            {
+                "transaction_id": 103,
+                "time": "2025-10-14T10:15:00",
+                "seller_id": 2,
+                "buyer_id": 3,
+                "transaction_amount": 9.99,
+                "transaction_status": "Active"
+            }
+        ]
+    }
+]
