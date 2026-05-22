@@ -1,7 +1,30 @@
-The WasteNot software is a terminal-based program designed to help restaurants and cafes reduce food waste by selling surplus food at discounted prices.
+# Waste Not - Food Waste Reduction System
 
-Users can register and log in as Sellers or Buyers.
+## Overview
+This project is developed as part of the unit Software Quality and Testing.
 
-Sellers can list surplus food as Treasure Bags with details like price, description, and category.
+It demonstrates software design, implementation, and systematic testing practices including both **white-box and black-box testing techniques**, as well as **Test-Driven Development (TDD)**.
 
-Buyers can browse and claim these Treasure Bags, paying upfront. The payment is reserved until the bag is collected, ensuring fairness for both parties.
+**Waste Not** is a terminal-based food waste reduction system that connects restaurants/cafes (sellers) with customers (buyers) to redistribute surplus food at discounted prices through a controlled marketplace system.
+
+The system simulates real-world transaction flows, including pending payments and post-collection confirmation.
+
+## Testing Methods Used
+
+The following software testing techniques are applied in this project:
+
+- **White-box Testing**
+  - Statement coverage testing
+  - Branch coverage testing
+
+- **Black-box Testing**
+  - Boundary Value Analysis (BVA)
+  - Equivalence Partitioning (EP)
+
+- **Test-Driven Development (TDD)**
+  - Writing failing tests before implementation
+  - Iterative development based on test cases
+  - Refactoring while maintaining test coverage
+
+- **Mocking**
+  - Used to simulate user input and isolate system logic
